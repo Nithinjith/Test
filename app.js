@@ -3,9 +3,6 @@ const https = require("https");
 
 const app = express();
 
-
-
-
 app.get("/", function(req, res){
 
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Cochin&appid=a41e36fc67d688385e4d7eaad78e623f#";
